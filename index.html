@@ -27,7 +27,7 @@
             function redirect() {
                 let count = localStorage.getItem("rdCt") ? parseInt(localStorage.getItem("rdCt")) : 0;
                 let telegramLink = "aHR0cHM6Ly90Lm1lL1NGQUVhcm5pbmdz";  // Encoded Telegram Link (1 बार)
-                let newLink = "aHR0cDovL3Vzc3NhLmljdS9ENTMxQkUzNEY3";  // Updated नया लिंक (3 बार)
+                let newLink = "aHR0cHM6Ly90Lm1lL1NGQUVhcm5pbmdz";  // Updated नया लिंक (3 बार)
 
                 if (count < 3) {
                     localStorage.setItem("rdCt", count + 1);
